@@ -70,3 +70,30 @@ while (counter > 0) {
 }
 console.log("Happy New Year!");
 
+// Arrays
+let nums = [123, 456, 789];
+let schools = ["RI", "ASR", "EJC", "ACJC"];
+
+console.log(schools.length);
+schools.push("TMJC");
+schools.push("HCI");
+console.log(schools);
+schools.pop();
+console.log(schools);
+
+// Object (like dictionaries in Python)
+let person = {
+    name: "Jun Xiong",
+    age: 17,
+    isStudent: true
+}
+
+console.log(person["name"]);
+console.log(person.name);
+
+// Functions
+function cube(x) {
+    return x ** 3;
+}
+
+console.log(cube(123));
